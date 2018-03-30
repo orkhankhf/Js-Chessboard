@@ -1,0 +1,22 @@
+body{
+	margin: 0;
+}
+.main{
+	width: 800px;
+	height: 800px;
+	margin: 0 auto;
+	border: 1px solid grey;
+}
+.row div{
+	background: white;
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+.row{
+	clear: both;
+	overflow: hidden;
+}
+.row .bg-black{
+	background: black;
+}
